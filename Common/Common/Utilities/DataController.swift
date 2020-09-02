@@ -1,6 +1,6 @@
 //
 //  DataController.swift
-//  Meditator
+//  Common
 //
 //  Created by Ambuj Punn on 7/7/20.
 //  Copyright © 2020 Ambuj Punn. All rights reserved.

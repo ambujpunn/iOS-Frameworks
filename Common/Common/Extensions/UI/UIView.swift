@@ -1,6 +1,6 @@
 //
 //  UIView.swift
-//  Meditator
+//  Common
 //
 //  Created by Ambuj Punn on 5/22/20.
 //  Copyright © 2020 Ambuj Punn. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  UserNotifications.swift
-//  Meditator
+//  Common
 //
 //  Created by Ambuj Punn on 6/16/20.
 //  Copyright © 2020 Ambuj Punn. All rights reserved.

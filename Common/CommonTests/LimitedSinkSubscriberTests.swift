@@ -1,6 +1,6 @@
 //
 //  LimitedSinkSubscriberTests.swift
-//  MeditatorTests
+//  CommonTests
 //
 //  Created by Ambuj Punn on 5/29/20.
 //  Copyright © 2020 Ambuj Punn. All rights reserved.

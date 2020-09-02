@@ -1,6 +1,6 @@
 //
 //  Subscribers.swift
-//  Meditator
+//  Common
 //
 //  Created by Ambuj Punn on 5/28/20.
 //  Copyright © 2020 Ambuj Punn. All rights reserved.

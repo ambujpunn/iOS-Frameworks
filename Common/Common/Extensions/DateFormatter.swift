@@ -1,6 +1,6 @@
 //
 //  DateFormatter.swift
-//  Meditator
+//  Common
 //
 //  Created by Ambuj Punn on 6/9/20.
 //  Copyright © 2020 Ambuj Punn. All rights reserved.
