@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1150"
+   LastUpgradeVersion = "1170"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "61378BA224B78F95006524DA"
-               BuildableName = "Common.framework"
-               BlueprintName = "Common"
-               ReferencedContainer = "container:Common.xcodeproj">
+               BlueprintIdentifier = "61FE649624B91C900017B935"
+               BuildableName = "Notifications.framework"
+               BlueprintName = "Notifications"
+               ReferencedContainer = "container:Notifications.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "61378BAB24B78F95006524DA"
-               BuildableName = "CommonTests.xctest"
-               BlueprintName = "CommonTests"
-               ReferencedContainer = "container:Common.xcodeproj">
+               BlueprintIdentifier = "61FE649F24B91C900017B935"
+               BuildableName = "NotificationsTests.xctest"
+               BlueprintName = "NotificationsTests"
+               ReferencedContainer = "container:Notifications.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -60,10 +60,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "61378BA224B78F95006524DA"
-            BuildableName = "Common.framework"
-            BlueprintName = "Common"
-            ReferencedContainer = "container:Common.xcodeproj">
+            BlueprintIdentifier = "61FE649624B91C900017B935"
+            BuildableName = "Notifications.framework"
+            BlueprintName = "Notifications"
+            ReferencedContainer = "container:Notifications.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
@@ -82,10 +82,10 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "61378BA224B78F95006524DA"
-                     BuildableName = "Common.framework"
-                     BlueprintName = "Common"
-                     ReferencedContainer = "container:Common.xcodeproj">
+                     BlueprintIdentifier = "61FE649624B91C900017B935"
+                     BuildableName = "Notifications.framework"
+                     BlueprintName = "Notifications"
+                     ReferencedContainer = "container:Notifications.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>

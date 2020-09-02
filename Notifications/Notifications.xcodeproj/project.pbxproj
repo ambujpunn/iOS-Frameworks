@@ -10,7 +10,6 @@
 		619F3E9524F89FF2001DC8D3 /* UserNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F3E9424F89FF2001DC8D3 /* UserNotifications.swift */; };
 		61FE64B224B91CA50017B935 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FE64B124B91CA50017B935 /* Notifications.swift */; };
 		61FE64F924B9324B0017B935 /* Notifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FE649724B91C900017B935 /* Notifications.framework */; };
-		61FE653224BFA5510017B935 /* TestHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FE653124BFA5510017B935 /* TestHelpers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,11 +29,6 @@
 		61FE64A024B91C900017B935 /* NotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FE64A724B91C900017B935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61FE64B124B91CA50017B935 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
-		61FE64B424B91CC50017B935 /* SitData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SitData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61FE64F724B932360017B935 /* TestHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TestHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61FE650224BD1BA00017B935 /* TestHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TestHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61FE650424BD1BC20017B935 /* TestHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TestHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61FE653124BFA5510017B935 /* TestHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TestHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61FE653224BFA5510017B935 /* TestHelpers.framework in Frameworks */,
 				61FE64F924B9324B0017B935 /* Notifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,11 +98,6 @@
 		61FE64B324B91CC50017B935 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				61FE653124BFA5510017B935 /* TestHelpers.framework */,
-				61FE650424BD1BC20017B935 /* TestHelpers.framework */,
-				61FE650224BD1BA00017B935 /* TestHelpers.framework */,
-				61FE64F724B932360017B935 /* TestHelpers.framework */,
-				61FE64B424B91CC50017B935 /* SitData.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
