@@ -13,6 +13,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6103B3D4250059ED004C030A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6103B3CF250059ED004C030A /* UI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 61FE657B24BFE7B40017B935;
+			remoteInfo = UI;
+		};
+		6103B3D6250059ED004C030A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6103B3CF250059ED004C030A /* UI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 61FE658424BFE7B40017B935;
+			remoteInfo = UITests;
+		};
 		61FE64A224B91C900017B935 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 61FE648E24B91C900017B935 /* Project object */;
@@ -23,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6103B3CF250059ED004C030A /* UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UI.xcodeproj; path = ../MeditatorUI/UI.xcodeproj; sourceTree = "<group>"; };
 		619F3E9424F89FF2001DC8D3 /* UserNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserNotifications.swift; path = ../../../Common/Common/Extensions/UserNotifications.swift; sourceTree = "<group>"; };
 		61FE649724B91C900017B935 /* Notifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Notifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FE649B24B91C900017B935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6103B3D0250059ED004C030A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6103B3D5250059ED004C030A /* UI.framework */,
+				6103B3D7250059ED004C030A /* UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		619F3E9624F8A032001DC8D3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +85,7 @@
 		61FE648D24B91C900017B935 = {
 			isa = PBXGroup;
 			children = (
+				6103B3CF250059ED004C030A /* UI.xcodeproj */,
 				61FE649924B91C900017B935 /* Notifications */,
 				61FE64A424B91C900017B935 /* NotificationsTests */,
 				61FE649824B91C900017B935 /* Products */,
@@ -180,6 +205,12 @@
 			mainGroup = 61FE648D24B91C900017B935;
 			productRefGroup = 61FE649824B91C900017B935 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6103B3D0250059ED004C030A /* Products */;
+					ProjectRef = 6103B3CF250059ED004C030A /* UI.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				61FE649624B91C900017B935 /* Notifications */,
@@ -187,6 +218,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6103B3D5250059ED004C030A /* UI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UI.framework;
+			remoteRef = 6103B3D4250059ED004C030A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6103B3D7250059ED004C030A /* UITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UITests.xctest;
+			remoteRef = 6103B3D6250059ED004C030A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		61FE649524B91C900017B935 /* Resources */ = {
